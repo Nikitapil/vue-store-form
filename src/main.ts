@@ -8,6 +8,7 @@ import './assets/styles/App.scss';
 import Maska from 'maska';
 import { setValidation } from '@/plugins/validation';
 
+// @ts-ignore
 const app = createApp(App);
 app.use(createPinia());
 app.use(router);

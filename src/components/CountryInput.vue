@@ -39,7 +39,7 @@ const sortedCountryList = computed(() => {
 });
 
 const showDropDown = () => {
-  if (country.value.length && sortedCountryList.value.length) {
+  if (country.value?.length && sortedCountryList.value.length) {
     isShowDropDown.value = true;
   } else {
     isShowDropDown.value = false;

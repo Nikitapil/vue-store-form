@@ -9,6 +9,7 @@
           <div
             v-if="cartStore.cartProducts.length && !cartStore.isPaid"
             :class="$style['cart-counter']"
+            data-testid="cart-counter"
           >
             {{ cartStore.cartProducts.length }}
           </div>

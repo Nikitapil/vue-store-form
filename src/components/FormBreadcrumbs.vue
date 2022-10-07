@@ -12,7 +12,6 @@
       :class="{ [$style.link]: true, [$style.disabled]: isBillingDisabled }"
       :active-class="$style.active"
       exact
-      @click.prevent
       >Billing</router-link
     >
     <router-link
